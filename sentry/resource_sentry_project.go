@@ -62,7 +62,7 @@ func resourceSentryProject() *schema.Resource {
 				Computed:    true,
 			},
 			"platform": {
-				Description:      "The optional platform for this project.",
+				Description:      "The optional platform for this project (https://github.com/getsentry/sentry/blob/ecc13253273b264c760eca8105692094a951d4e7/static/app/types/project.tsx#L138).",
 				Type:             schema.TypeString,
 				Optional:         true,
 				Computed:         true,
